@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="My Lovely HR - a cinematic love story made from memories, music, and forever."
+    />
+    <title>My Lovely HR</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="locked">
+    <div class="loader" aria-hidden="true">
+      <div class="loader__ring"></div>
+      <p>Creating our universe...</p>
+    </div>
+
+    <div class="ambient-stars" aria-hidden="true"></div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
+    <audio id="soniyaAudio" preload="auto" src="music/soniya.mp3"></audio>
+    <audio id="raanjhanaAudio" preload="auto" src="music/raanjhana.mp3"></audio>
+
+    <button class="music-toggle" type="button" aria-label="Pause music">
+      <span class="music-toggle__dot"></span>
+      <span class="music-toggle__label">Music</span>
+    </button>
+
+    <main class="story">
+      <section class="section hero-section" id="welcome" data-theme="gold">
+        <div class="section__halo"></div>
+        <div class="hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Welcome to our universe</p>
+            <div class="intro-lines" aria-label="Opening lines">
+              <span>Oyeee Pagli...</span>
+              <span>Welcome to our universe.</span>
+              <span>
+                A place made from memories, feelings, dreams and a whole lot of
+                love.
+              </span>
+            </div>
+
+            <div class="hero-message">
+              <p>This website isn't about us.</p>
+              <p>It's about <strong>My Lovely HR.</strong></p>
+              <p>
+                Because I don't think you see yourself the way I see you.
+              </p>
+            </div>
+
+            <h1>You Are Loved <span aria-hidden="true">❤️</span></h1>
+            <button class="enter-button magnetic" id="enterButton" type="button">
+              Enter Our Universe
+            </button>
+          </div>
+
+          <div class="portrait-frame hero-portrait reveal delay-1">
+            <img src="photos/hero.jpeg" alt="My Lovely HR in a cinematic portrait" />
+            <div class="portrait-frame__shine"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section title-section" id="my-lovely-hr">
+        <div class="star-title" aria-hidden="true"></div>
+        <div class="section-copy centered reveal">
+          <p class="eyebrow">After entering</p>
+          <h2 class="gather-title">MY LOVELY HR</h2>
+          <p class="lead">
+            The girl who changed everything without even realizing it.
+          </p>
+        </div>
+      </section>
+
+      <section class="section cards-section" id="girl-i-see">
+        <div class="split-layout">
+          <div class="portrait-frame reveal">
+            <img src="photos/girl-i-see.jpeg" alt="The girl I see" />
+            <div class="portrait-caption">The girl I see</div>
+          </div>
+
+          <div class="section-copy reveal delay-1">
+            <p class="eyebrow">Chapter three</p>
+            <h2>The Girl I See</h2>
+            <p class="lead">
+              There are parts of you I wish you could borrow from my eyes for a
+              minute.
+            </p>
+
+            <div class="luxury-cards" aria-label="Things I love about you">
+              <article class="lux-card" tabindex="0">
+                <span class="card-number">01</span>
+                <h3>The Smile I Miss</h3>
+                <p>
+                  The one that changes the whole room without trying. I miss it
+                  even before it leaves.
+                </p>
+              </article>
+              <article class="lux-card" tabindex="0">
+                <span class="card-number">02</span>
+                <h3>The Strength You Don't See</h3>
+                <p>
+                  You carry days that would tire anyone, and still somehow keep
+                  showing up with softness.
+                </p>
+              </article>
+              <article class="lux-card" tabindex="0">
+                <span class="card-number">03</span>
+                <h3>The Heart That Cares For Everyone</h3>
+                <p>
+                  You notice tiny changes, remember tiny details, and love in
+                  ways that feel like home.
+                </p>
+              </article>
+              <article class="lux-card" tabindex="0">
+                <span class="card-number">04</span>
+                <h3>More Important Than You Realize</h3>
+                <p>
+                  You are not just part of my days. You became the reason they
+                  feel lighter.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section tulip-section" id="last-few-weeks">
+        <div class="tulip-field" aria-hidden="true"></div>
+        <div class="section-copy centered reveal">
+          <p class="eyebrow">Understanding</p>
+          <h2>The Last Few Weeks</h2>
+          <div class="message-stack">
+            <p>I saw you tired even when you tried to hide it.</p>
+            <p>I heard it in your voice when you said you were fine.</p>
+            <p>I missed your smile in places where it usually lived.</p>
+            <p>
+              And more than anything, I wanted to help without making your world
+              heavier.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section safe-section" id="safe-place">
+        <div class="road-scene" aria-hidden="true">
+          <div class="road-line"></div>
+          <div class="road-glow"></div>
+        </div>
+        <div class="section-copy centered reveal">
+          <p class="eyebrow">Our Safe Place</p>
+          <h2>Night Drives, Playlists, Quiet Hands</h2>
+          <p class="lead">
+            My favorite moments with you were never the loud ones.
+          </p>
+          <p class="lead muted">They were the quiet ones.</p>
+          <div class="quiet-moments">
+            <span>Car</span>
+            <span>Playlist</span>
+            <span>Holding hands</span>
+            <span>Looking into each other's eyes</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section unseen-section" id="what-nobody-sees">
+        <div class="section-copy reveal">
+          <p class="eyebrow">The Softest Truth</p>
+          <h2>What Nobody Sees</h2>
+          <div class="unseen-grid">
+            <p>How you hide pain behind an almost-smile.</p>
+            <p>How you comfort others even when you need comfort too.</p>
+            <p>How you say you are okay because explaining feels too much.</p>
+            <p>How quietly your heart cries when nobody is watching.</p>
+          </div>
+          <blockquote>
+            <span>
+              You spend so much time making sure everyone else is okay.
+            </span>
+            <span>
+              I hope one day you realize it's okay not to be okay too.
+            </span>
+          </blockquote>
+        </div>
+      </section>
+
+      <section class="section constellation-section" id="constellation">
+        <div class="constellation-map" id="constellationMap" aria-label="Interactive constellation"></div>
+        <div class="section-copy centered constellation-copy reveal">
+          <p class="eyebrow">The Constellation Of Us</p>
+          <h2>Every star holds something I love about you.</h2>
+          <p class="lead">
+            Tap the stars. One of them is hiding something special.
+          </p>
+        </div>
+
+        <div class="star-note" id="starNote" role="status" aria-live="polite">
+          <button class="star-note__close" type="button" aria-label="Close star message">
+            ×
+          </button>
+          <p id="starNoteText"></p>
+        </div>
+      </section>
+
+      <section class="section certificate-section" id="certificate">
+        <div class="section-copy centered reveal">
+          <p class="eyebrow">Certificate Of Forever</p>
+          <h2>A Little Official, A Lot Playful</h2>
+          <p class="lead">
+            Tap the envelope. Some forever things deserve gold paper.
+          </p>
+        </div>
+
+        <div class="envelope-wrap reveal delay-1">
+          <button class="envelope" id="envelopeButton" type="button" aria-label="Open certificate envelope">
+            <span class="envelope__flap"></span>
+            <span class="envelope__body"></span>
+            <span class="envelope__seal">HR</span>
+          </button>
+
+          <article class="certificate-card" id="certificateCard" aria-hidden="true">
+            <p class="certificate-kicker">Official forever department</p>
+            <h3>Certificate Of Forever</h3>
+            <div class="issued">
+              <span>Issued To</span>
+              <strong>My Lovely HR</strong>
+              <em>and</em>
+              <strong>Her Bhukad</strong>
+            </div>
+            <ul>
+              <li>Unlimited hugs</li>
+              <li>Unlimited hand holding</li>
+              <li>Unlimited teasing</li>
+              <li>Unlimited playlist ownership</li>
+              <li>Unlimited night drives</li>
+              <li>Unlimited Bhukad &amp; Mota rights</li>
+            </ul>
+            <div class="certificate-footer">
+              <p><span>Validity</span> Forever</p>
+              <p>
+                <span>Date Issued</span>
+                The day two people accidentally became home.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section final-section" id="one-last-message">
+        <div class="split-layout final-layout">
+          <div class="portrait-frame reveal">
+            <img src="photos/final.jpeg" alt="One last message portrait" />
+            <div class="portrait-frame__shine"></div>
+          </div>
+
+          <div class="letter-card reveal delay-1">
+            <p class="eyebrow">One Last Message</p>
+            <h2>For My Lovely HR</h2>
+            <div class="letter-text">
+              <p>
+                I hope one day you see what I see: a girl much stronger than
+                she realizes, softer than she admits, and more loved than she
+                probably believes on difficult days.
+              </p>
+              <p>
+                You changed my mornings. You changed my playlist. You changed
+                my mood without even knowing. Somewhere between our talks, our
+                teasing, our quiet moments, and our random little memories, you
+                became home.
+              </p>
+              <p>I'm here.</p>
+              <p>Today.</p>
+              <p>Tomorrow.</p>
+              <p>On the good days.</p>
+              <p>On the difficult days.</p>
+              <p>On the days you're smiling.</p>
+              <p>And on the days you're quiet.</p>
+              <p>I'm here.</p>
+              <p>And I'm not going anywhere.</p>
+            </div>
+            <div class="signature">
+              <span>Forever Yours,</span>
+              <strong>❤️ Your Bhukad</strong>
+            </div>
+            <a class="call-button magnetic" href="tel:" aria-label="Call Your Bhukad">
+              📞 Call Your Bhukad
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
